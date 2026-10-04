@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Address Change Request - Amazon Logistics</title>
+
+<style>
+
+body{
+font-family:"Microsoft Dongdong";
+background:#f4f6f8;
+margin:0;
+}
+
+.header{
+background:#0056b3;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.container{
+max-width:800px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+input,textarea{
+width:100%;
+padding:12px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:16px;
+}
+
+button{
+margin-top:25px;
+width:100%;
+padding:15px;
+background:#0056b3;
+color:white;
+border:none;
+border-radius:5px;
+font-size:18px;
+cursor:pointer;
+}
+
+.notice{
+background:#eef5ff;
+padding:15px;
+border-radius:5px;
+margin-bottom:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>Amazon Logistics</h1>
+<p>Address Change Request</p>
+</div>
+
+<div class="container">
+
+<div class="notice">
+Please fill in the correct recipient information. Our customer service will process your application after review.
+</div>
+
+<label>tracking number</label>
+<input type="text" placeholder="Please enter the tracking number.">
+
+<label>Recipient's Name</label>
+<input type="text" placeholder="Please enter your name">
+
+<label>Contact number</label>
+<input type="text" placeholder="Please enter your contact number">
+
+<label>state（State）</label>
+<input type="text" placeholder="For example Texas">
+
+<label>City（City）</label>
+<input type="text" placeholder="Please enter the city">
+
+<label>post code（ZIP Code）</label>
+<input type="text" placeholder="Please enter your postal code">
+
+<label>Detailed address</label>
+<textarea rows="5" placeholder="Please enter your complete shipping address"></textarea>
+
+<button>
+Submit an address change request
+</button>
+
+</div>
+
+</body>
+
+</html>

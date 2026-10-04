@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Logistics tracking - Amazon Logistics</title>
+
+<style>
+
+body{
+font-family:"Microsoft Dongdong";
+background:#f4f6f8;
+margin:0;
+}
+
+.header{
+background:#0056b3;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.container{
+max-width:800px;
+margin:50px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:15px;
+font-size:16px;
+margin-top:10px;
+}
+
+button{
+background:#0056b3;
+color:white;
+padding:15px;
+border:none;
+width:100%;
+margin-top:20px;
+font-size:18px;
+cursor:pointer;
+}
+
+.result{
+margin-top:30px;
+padding:20px;
+background:#f8f8f8;
+border-radius:10px;
+}
+
+.status{
+color:green;
+font-weight:bold;
+font-size:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Amazon Logistics Tracking System</h1>
+</div>
+
+<div class="container">
+
+<h2>Tracking of logistics numbers</h2>
+
+<p>
+Please enter your tracking number to check the shipping status.
+</p>
+
+<input
+type="text"
+placeholder="Please enter the tracking number.">
+
+<button>
+Track logistics
+</button>
+
+<div class="result">
+
+<h3>Example of query results</h3>
+
+<p>
+tracking number：
+XD202610001
+</p>
+
+<p class="status">
+During transport
+</p>
+
+<p>
+2026-10-（1-31）
+</p>
+
+<p>
+The package has arrived at the state city distribution center.
+</p>
+
+<hr>
+
+<p>
+Payment Reminder: Please complete the payment within 3 days of receiving this notification. If payment is not made by the deadline, the package will be returned to Amazon headquarters.
+</p>
+
+<p>
+Package transferred to local delivery station
+</p>
+
+<hr>
+
+<p>
+Estimated delivery time：
+Within 24 hours
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
